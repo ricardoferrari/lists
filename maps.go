@@ -4,8 +4,12 @@ import (
 	"fmt"
 )
 
+type languagesType map[string]string
+
 func ListLanguagesMap() {
-	languagesMap := make(map[string]string, 5)
+	// languagesMap := make(map[string]string, 5)
+	// Below using predeclared custom type
+	languagesMap := make(languagesType, 5)
 	languagesMap["Angular"] = "Frontend"
 	languagesMap["Node"] = "Backend"
 	languagesMap["React"] = "Frontend"
