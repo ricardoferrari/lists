@@ -1,11 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	ArrayExample()
+	ListLanguagesMap()
 
 	list, err := NewList(3, 50)
 	if err != nil {
