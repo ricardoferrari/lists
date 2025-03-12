@@ -5,6 +5,8 @@ import (
 )
 
 func main() {
+	ArrayExample()
+
 	list, err := NewList(3, 50)
 	if err != nil {
 		fmt.Println(err)
